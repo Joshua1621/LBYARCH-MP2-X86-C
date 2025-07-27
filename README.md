@@ -44,3 +44,10 @@ Compute each element of output vector `Z` using the formula: (`Z[i] = A * X[i] +
 - Display the **first 10 elements** of `Z` for:
   - C version
   - x86-64 assembly version
+ 
+---
+
+### Comparative execution time and short analysis of the performance of the kernels
+### Take a screenshot of the program output with the correctness check (C)
+### Take a screenshot of the program output, including the correctness check (x86-64)
+### Short videos (5-10mins) showing your source code, compilation, and execution of the C and x86-64 program
