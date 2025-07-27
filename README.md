@@ -46,7 +46,7 @@ Compute each element of output vector `Z` using the formula: (`Z[i] = A * X[i] +
   - x86-64 assembly version
  
 ---
-
+### TO BE INSERTED:
 ### Comparative execution time and short analysis of the performance of the kernels
 ### Take a screenshot of the program output with the correctness check (C)
 ### Take a screenshot of the program output, including the correctness check (x86-64)
