@@ -34,7 +34,7 @@ This project implements a **SAXPY** (`Z[i] = A * X[i] + Y[i]`) kernel using:
 
 ### ⚙️ Process
 
-Compute each element of output vector `Z` using the formula: Z[i] = A ⋅ X[i] + Y[i]
+Compute each element of output vector `Z` using the formula: (`Z[i] = A * X[i] + Y[i]`)
 
 ---
 
