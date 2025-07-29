@@ -2,7 +2,7 @@
 
 **LBYARCH MP2 X86-C Interface Programming Repository**
 
-**Members:**  
+**Group 4 Members:**  
 - Joshua Benedict B. Co  
 - Llandro Massimo B. Colcol
 
