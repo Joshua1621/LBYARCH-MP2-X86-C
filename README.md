@@ -57,7 +57,15 @@ Compute each element of output vector `Z` using the formula: (`Z[i] = A * X[i] +
 
 **Table 1. Summary of execution time and performance**
 
-Insert Analysis here...
+The results in Table 1 shows a clear and consistent performance advantage of the x86-64 Assembly implementation over the C implementation of the SAXPY operation. As the vector size (n) increases, both versions take more time to complete, but it also shows that the Assembly version consistently executes faster.
+
+At n = 2<sup>20</sup>, The Assembly implementation is almost 3x faster than the C version.
+
+At n = 2<sup>24</sup>, it shows almost 2.5x faster.
+
+And lastly, at n = 2<sup>28</sup>, it is more than 2.5x faster 
+
+This performance gain can be attributed to the use of scalar SIMD floating-point instructions in the assembly in which it offers more control over low-level operations and it allows better optimization of the computational pipeline compared to the standing C version. Despite having both implementations achieving correct results, the version which is more efficient for high-performance vectorized computation as the data size scales up is the Assembly version.
 
 ---
 
