@@ -63,7 +63,7 @@ At n = 2<sup>20</sup>, The Assembly implementation is almost 3x faster than the 
 
 At n = 2<sup>24</sup>, it shows almost 2.5x faster.
 
-And lastly, at n = 2<sup>28</sup>, it is more than 2.5x faster 
+And lastly, at n = 2<sup>28</sup>, it is more than 2.5x faster.
 
 This performance gain can be attributed to the use of scalar SIMD floating-point instructions in the assembly in which it offers more control over low-level operations and it allows better optimization of the computational pipeline compared to the standing C version. Despite having both implementations achieving correct results, the version which is more efficient for high-performance vectorized computation as the data size scales up is the Assembly version.
 
