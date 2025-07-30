@@ -46,7 +46,20 @@ Compute each element of output vector `Z` using the formula: (`Z[i] = A * X[i] +
   - x86-64 assembly version
  
 ---
-### TO BE INSERTED:
+
+### Comparative Analysis
+
+|  n  |  C  |  Assembly  |
+| :---: | :---: | :---: |
+| 2<sup>20</sup> |  0.001700  |  0.000667  |
+| 2<sup>24</sup> |  0.031200  |  0.012900  |
+| 2<sup>28</sup> |  0.613500  |  0.232767  |
+
+**Table 1. Summary of execution time and performance**
+
+Insert Analysis here...
+
+---
 ### Comparative execution time and short analysis of the performance of the kernels
 ### Take a screenshot of the program output with the correctness check (C)
 ### Take a screenshot of the program output, including the correctness check (x86-64)
