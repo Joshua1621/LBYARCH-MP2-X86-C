@@ -62,7 +62,13 @@ Insert Analysis here...
 ---
 
 ### 📷 Screenshot of Output
-![ScreenshotOfOutput](images/screenshot.png)
 
-### Take a screenshot of the program output, including the correctness check (x86-64)
-### Short videos (5-10mins) showing your source code, compilation, and execution of the C and x86-64 program
+![ScreenshotOfOutput](images/LBYARCH-MP2-X86-C_Output_Group4.png)
+
+---
+
+### 🔗 Link to Short Video Demo
+
+Insert link here...
+
+---
