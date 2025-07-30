@@ -51,9 +51,9 @@ Compute each element of output vector `Z` using the formula: (`Z[i] = A * X[i] +
 
 |  n  |  C  |  Assembly  |
 | :---: | :---: | :---: |
-| 2<sup>20</sup> |  0.001700  |  0.000667  |
-| 2<sup>24</sup> |  0.031200  |  0.012900  |
-| 2<sup>28</sup> |  0.613500  |  0.232767  |
+| 2<sup>20</sup> |  0.001800  |  0.000633  |
+| 2<sup>24</sup> |  0.030167  |  0.012200  |
+| 2<sup>28</sup> |  0.530233  |  0.193000  |
 
 **Table 1. Summary of execution time and performance**
 
